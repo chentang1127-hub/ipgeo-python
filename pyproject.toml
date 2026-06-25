@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipgeo-api"
+version = "0.1.0"
+description = "Free IP geolocation API client with built-in security detection — VPN, proxy, Tor, hosting flags on every plan"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "IPGeo", email = "support@getipgeo.com"}]
+keywords = ["ip", "geolocation", "geoip", "security", "vpn", "proxy", "tor"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.8"
+dependencies = ["requests>=2.28"]
+
+[project.urls]
+Homepage = "https://getipgeo.com"
+Documentation = "https://getipgeo.com/docs"
+Repository = "https://github.com/chentang1127-hub/ipgeo-python"
